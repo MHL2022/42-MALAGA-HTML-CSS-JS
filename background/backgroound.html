@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="backgroound.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <button  onclick="myFunction()" class="btn-color">Click me!</button>
+    <script>
+        var colors = ['yellow', 'blue', 'red', 'green'];
+        var selectedColorIndex = 1;
+        var handleChangeColor = () => {
+            document.body.style.backgroundColor = colors[selectedColorIndex];
+            selectedColorIndex++;
+            if(selectedColorIndex >= colors.length) selectedColorIndex = 0;
+        }
+        function myFunction(){
+            document.body.style.backgroundColor=handleChangeColor()
+        }
+    </script>
+    </body>
+</html>

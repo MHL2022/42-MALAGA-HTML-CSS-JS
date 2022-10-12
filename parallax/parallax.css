@@ -1,0 +1,81 @@
+html,
+body {
+  background:black;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+/*Estilos parallax*/
+/*.container {
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
+  perspective: 100px;
+  
+
+}
+.tamaño2 { width: 100%;
+
+}*/
+/* 
+section {
+
+  background-size: cover;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+*/
+.div1 {
+    background-image: url(https://artquid-art.imgix.net/3/73/215323.308241714.1.o1259987282.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+.div2 {
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/24/06/27/eiffel-tower-5085389_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*.parallax-bg{
+  background-position: center center;
+  transform: translateZ(-0.5px) scale(2);
+  background-size: cover;
+  z-index: -1;
+  height: 50vh;
+}
+.parallax-content{
+  z-index: -1;
+  transform: translateY(-25vh) translateZ(0px) scale(1);
+  padding-left:30px;
+  padding-right:30px;
+  text-align:center;
+}
+.no-parallax-section{
+  height: 50vh;
+}*/
+
+.texto {
+    background-color: black;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    vertical-align: bottom;
+    text-align:center;
+    padding:30px;
+}
+/*Colores de fondo*/
+/*
+.bg-1{
+  background-color:black;
+}
+.bg-2{
+  background-color:black;
+}*/

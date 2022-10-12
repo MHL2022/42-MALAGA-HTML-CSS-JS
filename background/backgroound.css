@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#contenedor {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45dg,#00FFEF,  #f8f32b);
+}
+
+#btn-color {
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+
+}
+
